@@ -4,7 +4,7 @@ export default function Page() {
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <Navbar/>
             <div>
-                Page
+                <h1 className="text-center text-4xl font-bold">Photos</h1>
             </div>
         </main>
     )

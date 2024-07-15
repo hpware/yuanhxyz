@@ -1,7 +1,9 @@
+import Navbar from "@/app/navbar";
 export default function Page() {
-    return (
-        <div>
-            Page
-        </div>
-    )
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Navbar/>
+      <p>Test</p>
+    </main>
+  );
 }
